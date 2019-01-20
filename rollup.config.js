@@ -38,5 +38,7 @@ export default {
       clean: true
     }),
     commonjs()
-  ]
+  ],
+  external: ['styled-components'],
+  globals: { 'styled-components': 'styled' }
 }
