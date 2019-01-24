@@ -31,7 +31,7 @@ export const THEME: Theme = {
     primary: 'rgb(209, 142, 66)',
     action: '#e74c3c',
 
-    pageBackground: '#2c3e50',
+    pageBackground: 'linear-gradient(-20deg, #2b5876 0%, #4e4376 100%)',
     mainFont: '#FFFFFF'
   },
   colorHover: {
