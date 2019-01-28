@@ -1,11 +1,11 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
-import { RoundButton, THEME } from 'increaser-components'
+import { RoundButton, RerenderWithTime, THEME } from 'increaser-components'
 
 const Page = styled.div`
   min-height: 100vh;
   padding: 20px;
-  background-color: ${p => p.theme.color.pageBackground};
+  background: ${p => p.theme.color.pageBackground};
 `
 
 const Section = styled.section`
@@ -28,7 +28,13 @@ const Row = styled.div`
   justify-content: space-around;
 `
 
+const Text = styled.h3`
+  color: ${p => p.theme.color.mainFont};
+`
+
 export default () => {
+  const now = Date.now()
+
   return (
     <ThemeProvider theme={THEME}>
       <Page>
@@ -53,6 +59,12 @@ export default () => {
             <RoundButton calling size='l' type='default'>D</RoundButton>
             <RoundButton calling size='l' type='primary'>P</RoundButton>
             <RoundButton calling size='l' type='action'>A</RoundButton>
+          </Row>
+        </Section>
+        <Section>
+          <SectionName>RerenderWithTime</SectionName>
+          <Row>
+            <RerenderWithTime milliseconds={1000} renderComponent={() => <Text>{Math.round((Date.now() - now) / 1000)}</Text>} />
           </Row>
         </Section>
       </Page>
