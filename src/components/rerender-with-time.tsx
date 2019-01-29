@@ -23,7 +23,7 @@ export default class RerenderWithTime extends React.Component<Props, State> {
     }
 
     render() {
-        const { renderComponent: Component } = this.props
-        return <Component/>
+        const { renderComponent } = this.props
+        return renderComponent()
     }
 }
