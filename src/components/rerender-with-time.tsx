@@ -6,20 +6,29 @@ interface Props {
 }
 
 interface State {
-    timeNow: number
+    timeNow: number,
+    intervalId: any
 }
 
 export default class RerenderWithTime extends React.Component<Props, State> {
     constructor(props: Props) {
         super(props)
-        this.state = { timeNow: Date.now() }
-        console.log(props)
-        setInterval(
+        this.state = { timeNow: Date.now(), intervalId: 0 }
+    }
+
+    componentWillMount() {
+        const { milliseconds } = this.props
+        const intervalId = setInterval(
             () => {
                 this.setState({ timeNow: Date.now() })
             },
-            props.milliseconds
+            milliseconds
         )
+        this.setState({ intervalId })
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.state.intervalId)
     }
 
     render() {
