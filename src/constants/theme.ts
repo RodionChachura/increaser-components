@@ -7,7 +7,8 @@ interface BasicColor {
 
 interface Color extends BasicColor {
   pageBackground: string,
-  mainFont: string
+  mainFont: string,
+  secondaryFont: string
 }
 
 interface Shadow {
@@ -32,7 +33,8 @@ export const THEME: Theme = {
     action: '#e74c3c',
 
     pageBackground: 'linear-gradient(-20deg, #2b5876 0%, #4e4376 100%)',
-    mainFont: '#FFFFFF'
+    mainFont: '#FFFFFF',
+    secondaryFont: '#ecf0f1',
   },
   colorHover: {
     default: 'rgba(52, 152, 219, 0.2)',

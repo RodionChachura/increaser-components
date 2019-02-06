@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
-import { RoundButton, RerenderWithTime, THEME } from 'increaser-components'
+import { RoundButton, RerenderWithTime, Quote, THEME } from 'increaser-components'
 
 const Page = styled.div`
   min-height: 100vh;
@@ -11,6 +11,7 @@ const Page = styled.div`
 const Section = styled.section`
   border-radius: 5px;
   padding: 20px;
+  margin: 20px 0;
   border: 1px solid ${p => p.theme.color.primary};
   display: flex;
   flex-direction: column;
@@ -66,6 +67,10 @@ export default () => {
           <Row>
             <RerenderWithTime milliseconds={1000} renderComponent={() => <Text>{Math.round((Date.now() - now) / 1000)}</Text>} />
           </Row>
+        </Section>
+        <Section>
+          <SectionName>Quote</SectionName>
+          <Quote/>
         </Section>
       </Page>
     </ThemeProvider>
