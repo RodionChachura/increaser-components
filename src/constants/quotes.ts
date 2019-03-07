@@ -382,5 +382,25 @@ export const QUOTES = [
   [
     'Only you can master your mind, which is what it takes to live a bold life filled with accomplishments most people consider beyond their capability.',
     'David Goggins'
+  ],
+  [
+    'You do not need to be great to get started, but you need to get started to be great.',
+    'Les Brown'
+  ],
+  [
+    'The wisdom of life consists in the elimination of non-essentials.',
+    'Lin Yutang'
+  ],
+  [
+    "If you don't prioritize your life, someone else will.",
+    'Greg McKeown'
+  ],
+  [
+    'Without great solitude no serious work is possible.',
+    'Pablo Picasso'
+  ],
+  [
+    'In order to have focus we need to escape to focus.',
+    'Greg McKeown.'
   ]
 ].map(([text, author]) => ({ text, author }))
