@@ -1,10 +1,6 @@
 {
   "name": "increaser-components",
-<<<<<<< HEAD
-  "version": "0.1.5",
-=======
-  "version": "0.1.7",
->>>>>>> 254067a4aa6443342b22b53601f37cb7fe36d85a
+  "version": "0.1.8",
   "description": "Increaser family components",
   "author": "RodionChachura",
   "license": "MIT",
