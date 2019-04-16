@@ -422,5 +422,25 @@ export const QUOTES = [
   [
     'Nothing in the world can take the place of persistence.',
     'Calvin Coolidge'
+  ],
+  [
+    'You do not need to be great to get started, but you need to get started to be great.',
+    'Les Brown'
+  ],
+  [
+    'The wisdom of life consists in the elimination of non-essentials.',
+    'Lin Yutang'
+  ],
+  [
+    "If you don't prioritize your life, someone else will.",
+    'Greg McKeown'
+  ],
+  [
+    'Without great solitude no serious work is possible.',
+    'Pablo Picasso'
+  ],
+  [
+    'In order to have focus we need to escape to focus.',
+    'Greg McKeown.'
   ]
 ].map(([text, author]) => ({ text, author }))
