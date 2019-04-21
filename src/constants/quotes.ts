@@ -321,10 +321,11 @@ export const QUOTES = [
     'James Allen'
   ],
   [
-    'We must learn to do our work, act upon the best assumptions available, and leave results to take care of themselves'
+    'We must learn to do our work, act upon the best assumptions available, and leave results to take care of themselves',
+    'Maxwell Maltz'
   ],
   ['Life becomes worthwhile when you have worthwhile goals.', 'Maxwell Maltz'],
-  ["If you can't learn, you can't thrive."],
+  ["If you can't learn, you can't thrive.", 'Cal Newport'],
   [
     'To learn hard things quickly, you must focus intensely without distraction.',
     'Cal Newport'
@@ -402,5 +403,17 @@ export const QUOTES = [
   [
     'In order to have focus we need to escape to focus.',
     'Greg McKeown.'
+  ],
+  [
+    'Luck is like a bus if you miss one, there’s always the next one. But if you’re not prepared, you won’t be able to jump on.',
+    'Qi Lu'
+  ],
+  [
+    'Instead of getting frustrated by repeating the same old problem reframe the question in a new way that is amenable to a different kind of solution.',
+    'Dean Kamen'
+  ],
+  [
+    'Life is going to be short, no matter how long it is. You don’t have much time. Go to work.',
+    'Maya Angelou'
   ]
 ].map(([text, author]) => ({ text, author }))
