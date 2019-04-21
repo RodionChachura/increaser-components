@@ -385,6 +385,46 @@ export const QUOTES = [
     'David Goggins'
   ],
   [
+    'Every day do something that will inch you closer to a better tommorow.',
+    'Doug Firebaugh'
+  ],
+  [
+    'Routine, in an intelligent man, is a sign of ambition',
+    'Wystan Hugh Auden'
+  ],
+  [
+    "Remember these three P's: passion plus persistence equals possibility",
+    'Jon Bon Jovi'
+  ],
+  [
+    'Energy and persistence conquer all things.',
+    'Benjamin Franklin'
+  ],
+  [
+    'The most certain way to succeed is always to try just one more time.',
+    'Thomas Edison'
+  ],
+  [
+    'You just can’t beat the person who never gives up.',
+    'Babe Ruth'
+  ],
+  [
+    'It’s not that I’m so smart, it’s just that I stay with problems longer.',
+    'Albert Einstein'
+  ],
+  [
+    'We can do anything we want to do if we stick to it long enough.',
+    'Helen Keller'
+  ],
+  [
+    'If you are going through hell, keep going.',
+    'Winston Churchill'
+  ],
+  [
+    'Nothing in the world can take the place of persistence.',
+    'Calvin Coolidge'
+  ],
+  [
     'You do not need to be great to get started, but you need to get started to be great.',
     'Les Brown'
   ],
