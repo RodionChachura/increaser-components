@@ -455,5 +455,49 @@ export const QUOTES = [
   [
     'Life is going to be short, no matter how long it is. You don’t have much time. Go to work.',
     'Maya Angelou'
+  ],
+  [
+    "Do not be embarrassed by your failures, learn from them and start again. You don’t learn to walk by following rules. You learn by doing, and by falling over.",
+    'Richard Branson'
+  ],
+  [
+    'Life is never made unbearable by circumstances, but only by lack of meaning and purpose.',
+    'Viktor Frankl'
+  ],
+  [
+    'What man actually needs is not a tensionless state but rather the striving and struggling for a worthwhile goal, a freely chosen task.',
+    'Viktor Frankl'
+  ],
+  [
+    'Man is ultimately self-determining. Man does not simply exist but always decides what his existence will be, what he will become in the next moment.',
+    'Viktor Frankl'
+  ],
+  [
+    'The more important a call or action is to our soul’s evolution, the more Resistance we will feel toward pursuing it.',
+    'Steven Pressfield'
+  ],
+  [
+    'Procrastination is the most common manifestation of Resistance because it’s the easiest to rationalize.',
+    'Steven Pressfield'
+  ],
+  [
+    'Individuals who are realized in their own lives almost never criticize others. If they speak at all, it is to offer encouragement. Watch yourself.',
+    'Steven Pressfield'
+  ],
+  [
+    'The more scared we are of a work or calling, the more sure we can be that we have to do it.',
+    'Steven Pressfield'
+  ],
+  [
+    'If you’re paralyzed with fear, it’s a good sign. It shows you what you have to do.',
+    'Steven Pressfield'
+  ],
+  [
+    'The professional concentrates on the work and allows rewards to come or not come, whatever they like.',
+    'Steven Pressfield'
+  ],
+  [
+    'Our job in this lifetime is not to shape ourselves into some ideal we imagine we ought to be, but to find out who we already are and become it.',
+    'Steven Pressfield'
   ]
 ].map(([text, author]) => ({ text, author }))
