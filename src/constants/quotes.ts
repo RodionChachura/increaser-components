@@ -274,10 +274,6 @@ export const QUOTES = [
     'Good leadership consists of showing average people how to do the work of superior people.',
     'John D. Rockefeller'
   ],
-  [
-    'Our incomes are like our shoes; if too small, they gall and pinch us; but if too large, they cause us to stumble and to trip.',
-    'John Locke'
-  ],
   ['Love and work are the cornerstones of our humanness.', 'Sigmund Freud'],
   [
     'Rule No.1: Never lose money. Rule No.2: Never forget rule No.1.',
@@ -499,5 +495,53 @@ export const QUOTES = [
   [
     'Our job in this lifetime is not to shape ourselves into some ideal we imagine we ought to be, but to find out who we already are and become it.',
     'Steven Pressfield'
+  ],
+  [
+    'The individual has always had to struggle to keep from being overwhelmed by the tribe. If you try it, you will be lonely often, and sometimes frightened. But no price is too high to pay for the privilege of owning yourself.',
+    'Friedrich Nietzsche'
+  ],
+  [
+    'To me, the function and duty of a quality human being is the sincere and honest development of one’s potential.',
+    'Bruce Lee'
+  ],
+  [
+    'There is one quality which one must possess to win, and that is definiteness of purpose, the knowledge of what one wants, and a burning desire to possess it.',
+    'Napoleon Hill'
+  ],
+  [
+    'If you wait for opportunities to occur, you will be one of the crowd.',
+    'Edward de Bono'
+  ],
+  [
+    'Entrepreneurship is neither a science nor an art. It is a practice.',
+    'Peter Drucker'
+  ],
+  [
+    'You’re never a loser until you quit trying.',
+    'Mike Ditka'
+  ],
+  [
+    'Happiness does not come from doing easy work but from the afterglow of satisfaction that comes after the achievement of a difficult task that demanded our best.',
+    'Theodore Isaac Rubin'
+  ],
+  [
+    'Some people regard discipline as a chore. For me, it is a kind of order that sets me free to fly.',
+    'Julie Andrews'
+  ],
+  [
+    'You can’t try to do things; you simply must do them.',
+    'Ray Bradbury'
+  ],
+  [
+    'For every disciplined effort, there is a multiple reward.',
+    'Jim Rohn'
+  ],
+  [
+    'I know the price of success: dedication, hard work and an unremitting devotion to the things that you want to see happen.',
+    'Frank Lloyd Wright'
+  ],
+  [
+    'Don’t be passionate about what needs to be done; be passionate about what you will become.',
+    'MJ DeMarco'
   ]
 ].map(([text, author]) => ({ text, author }))
