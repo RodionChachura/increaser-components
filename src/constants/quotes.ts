@@ -543,5 +543,21 @@ export const QUOTES = [
   [
     'Don’t be passionate about what needs to be done; be passionate about what you will become.',
     'MJ DeMarco'
+  ],
+  [
+    'In life our first job is this, to divide and distinguish things into two categories: externals I cannot control, but the choices I make with regard to them I do control. Where will I find good and bad? In me, in my choices.',
+    'Epictetus'
+  ],
+  [
+    'We must all either wear out or rust out, every one of us. My choice is to wear out.',
+    'Theodore Roosevelt'
+  ],
+  [
+    'What is defeat? Nothing but education; nothing but the first steps to something better.',
+    'Wendell Phillips'
+  ],
+  [
+    'The best men are not those who have waited for chances but who have taken them; besieged the chance; conquered the chance; and made chance the servitor.',
+    'Edwin Hubbel Chapin'
   ]
 ].map(([text, author]) => ({ text, author }))

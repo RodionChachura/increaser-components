@@ -16,7 +16,7 @@ export default class RerenderWithTime extends React.Component<Props, State> {
         this.state = { timeNow: Date.now(), intervalId: 0 }
     }
 
-    componentWillMount() {
+    componentDidMount() {
         const { milliseconds } = this.props
         const intervalId = setInterval(
             () => {
