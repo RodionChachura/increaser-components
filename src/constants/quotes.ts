@@ -559,5 +559,73 @@ export const QUOTES = [
   [
     'The best men are not those who have waited for chances but who have taken them; besieged the chance; conquered the chance; and made chance the servitor.',
     'Edwin Hubbel Chapin'
+  ],
+  [
+    'Don’t waste time on things you can’t change!',
+    'Dan Peña'
+  ],
+  [
+    'Tough times don’t last – tough people do!',
+    'Dan Peña'
+  ],
+  [
+    'The best way to predict the future is to create it yourself!',
+    'Dan Peña'
+  ],
+  [
+    'Don’t under any circumstances, ever, second guess yourself.',
+    'Dan Peña'
+  ],
+  [
+    'Any problem solved will be replaced immediately by a larger more complicated one!',
+    'Dan Peña'
+  ],
+  [
+    'The more you investigate, the less you have to invest.',
+    'Dan Peña'
+  ],
+  [
+    'I’ve never seen a “part-time” super successful, high performance person.',
+    'Dan Peña'
+  ],
+  [
+    'Stop playing to lose. Play to win.',
+    'Dan Peña'
+  ],
+  [
+    'Man’s greatest burden is unfulfilled potential.',
+    'Dan Peña'
+  ],
+  [
+    'Don’t just work longer hours, ‘staying busy’ as most other people do. ‘Work smart’ — i.e. Stay productive and don’t get distracted.',
+    'Dan Peña'
+  ],
+  [
+    'Something better might be attained in the future by giving up something of value in the present.',
+    'Jordan B. Peterson'
+  ],
+  [
+    'If you want momentum, you’ll have to create it yourself, right now, by getting up and getting started.',
+    'Ryan Holiday'
+  ],
+  [
+    'Our perceptions are the thing that we’re in complete control of.',
+    'Ryan Holiday'
+  ],
+  [
+    'Eevery ounce of energy directed at things we can’t actually influence is wasted',
+    'Ryan Holiday'
+  ],
+  [
+    'Persist and resist. Persist in your efforts. Resist giving in to distraction, discouragement, or disorder.',
+    'Ryan Holiday'
+  ],
+  [
+    'Follow the process and not the prize.',
+    'Ryan Holiday'
+  ],
+  [
+    'If something is in our control, it’s worth every ounce of our efforts and energy.',
+    'Ryan Holiday'
   ]
 ].map(([text, author]) => ({ text, author }))
