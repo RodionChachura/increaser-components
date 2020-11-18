@@ -1,6 +1,5 @@
 # increaser-components
-
-> Increaser family components
+Reusable components that **were used** in Increaser.
 
 
 ## Install
@@ -9,8 +8,10 @@
 npm install --save increaser-components
 ```
 
-## Usage
-
+## Technologies
+* TypeScript
+* React
+* Styled Components
 
 ## License
 
